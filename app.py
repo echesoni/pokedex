@@ -7,10 +7,7 @@ from os import environ
 
 
 # Twilio Account Information
-# PUT IN ENV VAR BEFORE YOU DEPLOY!!
-# Your Account SID from twilio.com/console
 account_sid = environ.get('TWILIO_ACCOUNT_SID')
-# Your Auth Token from twilio.com/console
 auth_token  = environ.get('TWILIO_AUTH_TOKEN')
 client = Client(account_sid, auth_token)
 
