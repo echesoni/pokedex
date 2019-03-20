@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+
+# Distribution / packaging
+lib/
+MANIFEST
+
+# PyInstaller
+.manifest
+
+# Unit test / coverage reports
+tests/
+
+# Flask Stuff
+instance/
+.webassets-cache
+
+# pyenv
+.python-version
+
+# Environments
+*.env
+env/
+.venv
+venv/
+twilio.env
