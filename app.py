@@ -77,17 +77,7 @@ def incoming_message():
         # Add image
         msg.media(image)
 
-        # WHERE DO THESE GO??
-        # image = '{0}{1}'.formate(BASE_URL, sprite)
-        # message = '{0}, {1}'.format(pokemon['name'], description)
-
         return str(twiml)
-
-
-# print(pokemon["name"])
-# print(description["name"] + " belongs to " + description["generation"]["name"])
-# print("and is a " + description["habitat"]["name"] + " pokemon")
-# print(sprite_uri)
 
 if __name__ == "__main__":
     app.run(debug=True)
