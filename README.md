@@ -1,4 +1,4 @@
-#Pokedex
+# Pokedex
 
 First and foremost, I must give credit where credit is due;
 
